@@ -1,3 +1,24 @@
 /* 
     General Styles
 */
+
+.homeJumboImage{
+    background-image: url("https://ucarecdn.com/0568c6ca-e03b-457b-9241-71f57d7086c4/-/resize/1000x/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center center;
+     
+}
+
+
+
+
+
+.gradient{
+    
+    background-image: linear-gradient(black, #22252C);
+    
+} 

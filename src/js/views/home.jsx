@@ -6,14 +6,13 @@ import "../../styles/home.css";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="text-center mt-5">
-				<h1>Hello Rigo!</h1>
-				<p>
-					<img src={rigoImage} />
-				</p>
-				<a href="#" className="btn btn-success">
-					If you see this green button, bootstrap is working
-				</a>
+			<div>
+				<div className="jumbotron jumbotron-fluid vh-100 homeJumboImage bg-white d-none d-lg-block">
+					<img
+						className="img-fluid"
+						src="https://ucarecdn.com/0eaee51a-7f9d-44e9-acc8-5b48cc664761/-/resize/350x/"
+					/>
+				</div>
 			</div>
 		);
 	}
