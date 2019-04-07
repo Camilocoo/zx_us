@@ -22,3 +22,12 @@
     background-image: linear-gradient(black, #22252C);
     
 } 
+
+.homeFont{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#cccccc;
+    font-weight:500;
+   
+    
+}
+

@@ -42,7 +42,7 @@ export class Navbar extends React.Component {
 								<a className="navbar-brand" href="#">
 									<Link to="/" className="nav-link py-0">
 										<img
-											src="https://ucarecdn.com/7d94e24f-53bf-4da1-a350-ba156b362c72/-/resize/40x/"
+											src="https://ucarecdn.com/e01b4be4-18fd-4805-8707-5e505a564cbb/-/resize/40x/"
 											className="img-fluid"
 											alt="Responsive image"
 										/>
