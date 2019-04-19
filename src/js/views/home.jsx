@@ -15,7 +15,7 @@ export class Home extends React.Component {
 								src="https://ucarecdn.com/0eaee51a-7f9d-44e9-acc8-5b48cc664761/-/resize/350x/"
 							/>
 						</div>
-						<div className="col d-flex justify-content-start align-items-end mb-5 ml-5">
+						<div className="col d-flex justify-content-start align-items-end mb-5 ml-5 p-0">
 							<div className="text-center ">
 								<p className="display-3 homeFont">
 									UNLEASH THE POWER
@@ -29,11 +29,18 @@ export class Home extends React.Component {
 						</div>
 					</div>
 				</div>
+				{/*sm jumbo*/}
+				<div className="jumbotron jumbotron-fluid  text-center homeJumboImageSmall  bg-white  p-0 mb-0 d-lg-none d-xl-none">
+					<img
+						className=" img-fluid "
+						src="https://ucarecdn.com/0eaee51a-7f9d-44e9-acc8-5b48cc664761/-/resize/250x/"
+					/>
+				</div>
 				<div className="jumbotron jumbotron-fluid text-white backgorundBlack text-center text-md-left mb-0 p-3 ">
 					<div className="row">
 						<div className="col-12 col-sm-12 col-lg-7">
 							<div className="p-sm-1 p-lg-4">
-								<p className="display-4 weAre text-secondary">
+								<p className="h1 weAre text-secondary">
 									We Are ...
 								</p>
 								<p className="lead ">
@@ -75,7 +82,7 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				<div className="container-fluid productBackground p-4">
-					<div className="row pb-5 mb-5">
+					<div className="row pb-2 mb-5">
 						<div className="col-12 text-center text-white">
 							<p className="display-3"> Our Products </p>
 						</div>

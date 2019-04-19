@@ -13,6 +13,28 @@
      
 }
 
+.ultraLipo{
+  background-image: url("https://ucarecdn.com/0eaee51a-7f9d-44e9-acc8-5b48cc664761/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 38%;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center center;  
+}
+
+.homeJumboImageSmall{
+    background-image: url("https://ucarecdn.com/0568c6ca-e03b-457b-9241-71f57d7086c4/-/resize/900x/");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 180%;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center center;
+     
+}
+
+
 .lipoBlue{
     background-image: url("https://ucarecdn.com/1c22c8b6-76a0-4b47-93da-b1daf8e06aee/");
      /*background-size: cover;*/
