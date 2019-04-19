@@ -49,7 +49,7 @@ export class Navbar extends React.Component {
 									</Link>
 								</a>
 							</div>
-							<div className="col-4">
+							<div className="col-4 ">
 								<div
 									className="collapse navbar-collapse d-flex justify-content-end pt-2"
 									id="navbarNavAltMarkup">
