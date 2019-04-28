@@ -94,3 +94,11 @@
     font-weight:500;
 }
 
+.footerGradient{
+    
+    background-image: linear-gradient( #22252C,black);
+    
+}
+.html {
+  scroll-behavior: smooth;
+}

@@ -2,13 +2,14 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import { Link } from "react-router-dom";
 
 export class Home extends React.Component {
 	render() {
 		return (
 			<div className="bodyBackground">
 				<div className="jumbotron jumbotron-fluid  homeJumboImage bg-white d-none d-lg-block py-3 mb-0">
-					<div className="row">
+					<div className="row m-0">
 						<div className="col-3">
 							<img
 								className="img-fluid"
@@ -37,10 +38,12 @@ export class Home extends React.Component {
 					/>
 				</div>
 				<div className="jumbotron jumbotron-fluid text-white backgorundBlack text-center text-md-left mb-0 p-3 ">
-					<div className="row">
+					<div className="row m-0">
 						<div className="col-12 col-sm-12 col-lg-7">
 							<div className="p-sm-1 p-lg-4">
-								<p className="h1 weAre text-secondary">
+								<p
+									id="aboutUs"
+									className="h1 weAre text-secondary">
 									We Are ...
 								</p>
 								<p className="lead ">
@@ -84,7 +87,10 @@ export class Home extends React.Component {
 				<div className="container-fluid productBackground p-4">
 					<div className="row pb-2 mb-5">
 						<div className="col-12 text-center text-white">
-							<p className="display-3"> Our Products </p>
+							<p id="products" className="display-3 scrollspy">
+								{" "}
+								Our Products{" "}
+							</p>
 						</div>
 					</div>
 					<div className="row pb-5 mb-5 pb-3 ">

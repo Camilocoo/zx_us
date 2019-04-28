@@ -37,13 +37,11 @@ export class Nabar extends React.Component {
 													Distributors
 												</a>
 											</Link>
-											<Link
-												to="/learning-tools"
-												className="nav-link">
-												<a className="nav-item nav-link  ">
-													About Us
-												</a>
-											</Link>
+											<a
+												href="#aboutUs"
+												className="nav-item nav-link  pt-3">
+												About Us
+											</a>
 										</div>
 									</div>
 								</div>
@@ -63,13 +61,11 @@ export class Nabar extends React.Component {
 										className="collapse navbar-collapse d-flex justify-content-end pt-2"
 										id="navbarNavAltMarkup">
 										<div className="navbar-nav">
-											<Link
-												to="/about-us"
-												className="nav-link">
-												<a className="nav-item nav-link">
-													Products
-												</a>
-											</Link>
+											<a
+												href="#products"
+												className="nav-item nav-link scrollspy pt-3">
+												Products
+											</a>
 											<Link
 												to="https://student.breatheco.de/login"
 												className="nav-link">
@@ -85,7 +81,7 @@ export class Nabar extends React.Component {
 												<a
 													className="nav-item nav-link"
 													href="#">
-													Contact
+													Mail us
 												</a>
 											</Link>
 										</div>
@@ -95,6 +91,7 @@ export class Nabar extends React.Component {
 						</div>
 					</nav>
 				</div>
+				{/*small size nav*/}
 				<div className="d-lg-none">
 					<Navbar variant="dark" className="gradient  " expand="lg">
 						<Navbar.Brand
@@ -109,8 +106,12 @@ export class Nabar extends React.Component {
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
 						<Navbar.Collapse id="basic-navbar-nav">
 							<Nav className="mr-auto text-center">
-								<Nav.Link href="#home">Home</Nav.Link>
-								<Nav.Link href="#link">Link</Nav.Link>
+								<Nav.Link href="#">Home</Nav.Link>
+								<Nav.Link>About Us</Nav.Link>
+								<Nav.Link href="#">Products</Nav.Link>
+								<Nav.Link href="#">Testimonies</Nav.Link>
+								<Nav.Link href="#">Distributors</Nav.Link>
+								<Nav.Link href="#">Mail Us</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Navbar>
