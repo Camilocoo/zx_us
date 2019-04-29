@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export class Home extends React.Component {
 	render() {
@@ -37,13 +37,14 @@ export class Home extends React.Component {
 						src="https://ucarecdn.com/0eaee51a-7f9d-44e9-acc8-5b48cc664761/-/resize/250x/"
 					/>
 				</div>
+				<div id="aboutUs">
+					<br />
+				</div>
 				<div className="jumbotron jumbotron-fluid text-white backgorundBlack text-center text-md-left mb-0 p-3 ">
 					<div className="row m-0">
 						<div className="col-12 col-sm-12 col-lg-7">
 							<div className="p-sm-1 p-lg-4">
-								<p
-									id="aboutUs"
-									className="h1 weAre text-secondary">
+								<p className="h1 weAre text-secondary">
 									We Are ...
 								</p>
 								<p className="lead ">
@@ -84,6 +85,9 @@ export class Home extends React.Component {
 						</div>
 					</div>
 				</div>
+				<div id="products">
+					<br />
+				</div>
 				<div className="container-fluid productBackground p-4">
 					<div className="row pb-2 mb-5">
 						<div className="col-12 text-center text-white">
@@ -109,9 +113,9 @@ export class Home extends React.Component {
 								</p>
 								<p className="lead text-white">
 									with many success stories. Will help towards
-									weight-loss to those who aren't physically
-									active, Will Bun fat, reduce liquid
-									retention and it is recommended for
+									weight-loss to those who aren&apos;t
+									physically active, Will Bun fat, reduce
+									liquid retention and it is recommended for
 									sedentary people with low physical activity
 									who wish to lose weight
 								</p>

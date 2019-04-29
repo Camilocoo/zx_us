@@ -7,7 +7,7 @@ import {
 	Button,
 	Form
 } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export class Nabar extends React.Component {
 	render() {
@@ -37,11 +37,11 @@ export class Nabar extends React.Component {
 													Distributors
 												</a>
 											</Link>
-											<a
-												href="#aboutUs"
-												className="nav-item nav-link  pt-3">
-												About Us
-											</a>
+											<Link smooth to="/#aboutUs">
+												<p className="nav-item nav-link pt-3 ">
+													About Us
+												</p>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -61,11 +61,11 @@ export class Nabar extends React.Component {
 										className="collapse navbar-collapse d-flex justify-content-end pt-2"
 										id="navbarNavAltMarkup">
 										<div className="navbar-nav">
-											<a
-												href="#products"
-												className="nav-item nav-link scrollspy pt-3">
-												Products
-											</a>
+											<Link smooth to="/#products">
+												<a className="nav-item nav-link scrollspy pt-3">
+													Products
+												</a>
+											</Link>
 											<Link
 												to="https://student.breatheco.de/login"
 												className="nav-link">
@@ -107,8 +107,12 @@ export class Nabar extends React.Component {
 						<Navbar.Collapse id="basic-navbar-nav">
 							<Nav className="mr-auto text-center">
 								<Nav.Link href="#">Home</Nav.Link>
-								<Nav.Link>About Us</Nav.Link>
-								<Nav.Link href="#">Products</Nav.Link>
+								<Link smooth to="/#aboutUs">
+									<Nav.Link>About Us</Nav.Link>
+								</Link>
+								<Link smooth to="/#products">
+									<Nav.Link href="#">Products</Nav.Link>
+								</Link>
 								<Nav.Link href="#">Testimonies</Nav.Link>
 								<Nav.Link href="#">Distributors</Nav.Link>
 								<Nav.Link href="#">Mail Us</Nav.Link>
